@@ -45,6 +45,13 @@ For each record it is provided:
 
 -   An identifier of the subject who carried out the experiment.
 
+### Units
+
+-   Accelerometer variables - standard gravity units 'g'
+
+-   Gyroscope variables - The units are radians/second. The angular
+    velocity vector measured by the gyroscope for each window sample.
+
 ### The feature list are as follows:
 
 Activity
@@ -240,5 +247,5 @@ by Activity and SubjectId
 
 Finally, we export the data into csv files.
 
-    write.csv(aggregateAllDataDt, file="AggregateTidyData.csv")
-    write.csv(allData, file="TidyData.csv")
+    write.table(aggregateAllDataDt, file="AggregateTidyData.txt", row.name = FALSE)
+    write.table(allData, file="TidyData.txt", row.name = FALSE)
