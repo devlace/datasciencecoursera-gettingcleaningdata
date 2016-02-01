@@ -14,14 +14,14 @@ waist-mounted smartphone with embedded inertial sensors.
 **More detailed information about the original dataset is located in the
 README file within the data folder of this repository.**
 
-### TidyData.csv
+### TidyData
 
 The tidy dataset is a subset of the features of the raw dataset as it
 only contains mean and standard deviation measurements. It contains both
 the Train and Test data appended along with the Activities and
 SubjectIds merged in. It contains 10299 observations and 50 variables.
 
-### AggregateTidyData.csv
+### AggregateTidyData
 
 The aggregated tidy dataset is the tidy dataset aggregated by Activity
 and SubjectId and summed across the measurements. It contains 180

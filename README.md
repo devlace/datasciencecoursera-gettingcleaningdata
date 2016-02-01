@@ -1,4 +1,4 @@
-# datasciencecoursera-gettingclearningdata
+# datasciencecoursera-gettingcleaningdata
 
 Data Folder
  - contains all the raw data. 
